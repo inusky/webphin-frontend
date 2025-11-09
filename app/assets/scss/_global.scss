@@ -1,0 +1,58 @@
+@use 'variables';
+
+.header-container {
+  display: inline-block;
+  width: variables.$header-container-width;
+  height: variables.$header-container-height;
+  padding: variables.$header-container-padding;
+  text-align: center;
+}
+
+.header-container-parent {
+  background-color: variables.$header-container-bg-color;
+  text-align: center;
+  margin-bottom: 10px;
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+    a {
+      color: #f9f9f9;
+      text-decoration: none;
+      &:hover {
+        animation: change-color 1s linear forwards;
+      }
+    }
+  }
+  header {
+    padding-top: 30px;
+    color: #1f1fc3;
+  }
+}
+
+@keyframes change-color {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+    color: #5cef33;
+    font-weight: 500;
+  }
+}
+
+.content {
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  margin: 1rem;
+}

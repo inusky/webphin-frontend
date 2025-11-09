@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-frontend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "4.1.3",
+    "vue": "3.5.22",
+    "vue-router": "4.6.3"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^3.7.1",
+    "@nuxt/eslint": "^1.9.0",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^2.1.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/ui": "^4.0.1",
+    "@types/node": "^24.9.1",
+    "sass": "^1.93.3"
+  }
+}
