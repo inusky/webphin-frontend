@@ -1,9 +1,9 @@
 @use '../config/foundation' as *;
 
 html {
-  // By default, 1 rem = 16px
-  font-size: 62.5%; // New default // 1 rem = 10px
+  font-size: 62.5%; // 1rem = 10px
   box-sizing: border-box;
+  scroll-behavior: smooth; // Smooth scrolling on the whole website
 }
 
 *,
@@ -16,6 +16,9 @@ html {
 
 body {
   margin: 0 auto;
-  max-width: 90%;
-  background-color: $app-BG;
+  max-width: 90%; // keeps page centered
+  background: $app-BG;
+  font-family: $content-font;
+  color: $font-color;
+  line-height: 1.6; // readable text spacing
 }
