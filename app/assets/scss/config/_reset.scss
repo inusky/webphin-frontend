@@ -1,0 +1,21 @@
+@use '../config/foundation' as *;
+
+html {
+  // By default, 1 rem = 16px
+  font-size: 62.5%; // New default // 1 rem = 10px
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: $app-BG;
+}

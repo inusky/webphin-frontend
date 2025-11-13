@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css: ['./app/assets/scss/main.scss', './app/assets/css/main.css'],
+  css: ['./app/assets/scss/main.scss'],
   app: {
     head: {
       title: 'The MBA Mentor',
